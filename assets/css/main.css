@@ -256,3 +256,72 @@ width: 350px;
   margin-bottom: 5px;
   font-weight:  bolder;
 }
+
+[title~="AccesBanc"] 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="AccesBanc"]:hover
+{
+  color: rgba(0, 96, 164);
+  box-shadow: 0 8px 16px 0 rgba(0, 96, 164), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+
+[title~="TransferRemittances"] 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="TransferRemittances"]:hover
+{
+  color: rgba(126, 22, 214);
+  box-shadow: 0 8px 16px 0 rgba(126, 22, 214), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+
+[title~="GridCard"] 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="GridCard"]:hover
+{
+  color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+
+[title~="WiFi_Etecsa"] 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="WiFi_Etecsa"]:hover
+{
+  color: rgb(22, 17, 161);
+  box-shadow: 0 8px 16px 0 rgb(22, 17, 161), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+
+[title~="Nod32V8"] 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="Nod32V8"]:hover
+{
+  color: rgb(0, 150, 160);
+  box-shadow: 0 8px 16px 0 rgb(0, 150, 160), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="SendAmazon"] 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="SendAmazon"]:hover
+{
+  color: rgb(251, 150, 32);
+  box-shadow: 0 8px 16px 0 rgb(251, 150, 32), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+
+[title~="RechargeCell"] 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="RechargeCell"]:hover
+{
+  color: rgb(66, 153, 232);
+  box-shadow: 0 8px 16px 0 rgb(66, 153, 232), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}

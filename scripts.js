@@ -1,3 +1,4 @@
+document.write('<script src="https://d4nt3d3v.github.io/assets/MenuVS.Code/scripts.js"></script>');
 document.write('<script src="https://d4nt3d3v.github.io/assets/SocialNetworks_Panel/scripts.js"></script>');
 var Social_Discord="aaaaaa";
 var Social_YouTube="";

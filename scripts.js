@@ -1,11 +1,16 @@
 importScriptURI('https://d4nt3d3v.github.io/assets/MenuVS.Code/scripts.js');
 importScriptURI('https://d4nt3d3v.github.io/assets/SocialNetworks_Panel/scripts.js');
 
-const script=document.createElement("script");
-script.type="text/javascript";
-script.src="https://d4nt3d3v.github.io/assets/MenuVS.Code/scripts.js";
-document.head.appendChild(script);
-eval(script);
+
+var url="https://d4nt3d3v.github.io/assets/MenuVS.Code/scripts.js";
+const loadScript = async (url) => {
+    const response = await fetch(url)
+    const script = await response.text()
+    eval(script)
+  }
+  
+  const scriptUrl = "script.js"
+  loadScript(scriptUrl)
 
 var Social_Discord="aaaaaa";
 var Social_YouTube="";

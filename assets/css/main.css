@@ -224,3 +224,21 @@ body {
 * {
   user-select: none;
 }
+
+.HeaderText
+{
+font-size: 32px;
+color: white;
+}
+
+.PresentationCardIMG
+{
+margin-left: 5px;
+margin-right: 5px;
+
+border-radius: 50px;
+height: 200px;
+
+
+
+}

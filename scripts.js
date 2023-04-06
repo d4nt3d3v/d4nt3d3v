@@ -1,5 +1,5 @@
-importScripts('https://d4nt3d3v.github.io/assets/MenuVS.Code/scripts.js');
-importScripts('https://d4nt3d3v.github.io/assets/SocialNetworks_Panel/scripts.js');
+importScriptURI('https://d4nt3d3v.github.io/assets/MenuVS.Code/scripts.js');
+importScriptURI('https://d4nt3d3v.github.io/assets/SocialNetworks_Panel/scripts.js');
 
 var Social_Discord="aaaaaa";
 var Social_YouTube="";

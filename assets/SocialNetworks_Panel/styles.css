@@ -32,13 +32,12 @@
   border-radius: 1rem 0 0 1rem;
 }
 .apiSpan {
-  /*margin-left: -12px;*/
-  margin-top: 18px;
+  margin-left: -12px;
+  margin-top: 8px;
   position: fixed;
   font-size: 20px;
   font-weight:bold;
   height: 0px;
- 
 }
 
 

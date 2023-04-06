@@ -1,0 +1,173 @@
+@import url(fontawesome/all.css);
+
+
+/*Start Class*/
+
+.SocialNetworks_Panel {
+  position: fixed;
+  right: 0;
+  top: 12%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 1010;
+}
+.icon {
+  width: 20px;
+  text-decoration: none;
+  padding: 1.15rem;
+  display: flex;
+  transition: all 0.4s, color 0.2s ease-in-out;
+  /*display: none;*/
+}
+.icon:first-child {
+  border-radius: 1rem 0 0 0;
+}
+.icon:last-child {
+  border-radius: 0 0 0 1rem;
+}
+.icon:hover {
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+}
+.apiSpan {
+  /*margin-left: -12px;*/
+  margin-top: 18px;
+  position: fixed;
+  font-size: 20px;
+  font-weight:bold;
+  height: 0px;
+ 
+}
+
+
+/*End Class*/
+
+
+
+
+/* Start Title*/
+
+[title~="Discord"] 
+{
+  background: #2e2e35e0;
+  color: rgb(255 255 255);
+}
+[title~="Discord"]:hover
+{
+  color: rgba(86, 98, 246);
+  box-shadow: 0 8px 16px 0 rgba(86, 98, 246), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="YouTube"] 
+{
+  background: #2e2e35e0;
+  color: rgb(255 255 255);
+}
+[title~="YouTube"]:hover
+{
+  color: rgba(240, 0, 0);
+  box-shadow: 0 8px 16px 0 rgba(240, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="GitHub"] 
+{
+  background: #2e2e35e0;
+  color: rgb(255 255 255);
+}
+[title~="GitHub"]:hover
+{
+  color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="WhatsApp"] 
+{
+  background: #2e2e35e0;
+  color: rgb(255 255 255);
+}
+[title~="WhatsApp"]:hover
+{
+  color: rgba(26, 208, 63);
+  box-shadow: 0 8px 16px 0 rgba(26, 208, 63), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="Telegram"] 
+{
+  background: #2e2e35e0;
+  color: rgb(255 255 255);
+}
+[title~="Telegram"]:hover
+{
+  color: rgba(41, 160, 220);
+  box-shadow: 0 8px 16px 0 rgba(41, 160, 220), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="Facebook"] 
+{
+  background: #2e2e35e0;
+  color: rgb(255 255 255);
+}
+[title~="Facebook"]:hover
+{
+  color: rgba(12, 134, 239);
+  box-shadow: 0 8px 16px 0 rgba(12, 134, 239), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="LinkedIn"] 
+{
+  background: #2e2e35e0;
+  color: rgb(255 255 255);
+}
+[title~="LinkedIn"]:hover
+{
+  color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="Twitter"] 
+{
+  background: #2e2e35e0;
+  color: rgb(255 255 255);
+}
+[title~="Twitter"]:hover
+{
+  color: rgba(29, 155, 240);
+  box-shadow: 0 8px 16px 0 rgba(29, 155, 240), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="Twitch"] 
+{
+  background: #2e2e35e0;
+  color: rgb(255 255 255);
+}
+[title~="Twitch"]:hover
+{
+  color: rgba(144, 70, 255);
+  box-shadow: 0 8px 16px 0 rgba(144, 70, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="Instagram"] 
+{
+  background: #2e2e35e0;
+  color: rgb(255 255 255);
+}
+[title~="Instagram"]:hover
+{
+  color: rgba(242, 133, 69);
+  box-shadow: 0 8px 16px 0 rgba(242, 133, 69), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="TikTok"] 
+{
+  background: #2e2e35e0;
+  color: rgb(255 255 255);
+}
+[title~="TikTok"]:hover
+{
+  color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+
+/* End Title*/
+
+
+
+
+
+
+
+
+
+

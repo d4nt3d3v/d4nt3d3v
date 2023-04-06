@@ -238,7 +238,10 @@ margin-right: 5px;
 
 border-radius: 50px;
 height: 200px;
-
-
+width: 350px;
+}
+.PresentationCardDIV
+{
+  display: inline-grid;
 
 }

@@ -1,9 +1,9 @@
-var Social_Discord="aaaa";
-var Social_YouTube="";
-var Social_GitHub="aaa";
-var Social_WhatsApp="aaa";
-var Social_Telegram="";
-var Social_Facebook="";
+var Social_Discord="https://dsc.gg/d4nt3d3v";
+var Social_YouTube="https://www.youtube.com/channel/UC5r7xOi-TqAuLIOlqW6MP8w";
+var Social_GitHub="https://github.com/d4nt3d3v";
+var Social_WhatsApp="";
+var Social_Telegram="https://t.me/D4NT3_D3V";
+var Social_Facebook="https://www.facebook.com/profile.php?id=100083404808616";
 var Social_LinkedIn="";
 var Social_Twitter="";
 var Social_Twitch="";

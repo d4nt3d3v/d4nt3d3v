@@ -108,13 +108,20 @@
 
 
 
-<div id='Services'></div>
+<div id='MyContainer'></div>
 
 <script>
-    alert(window.location);
-   
-        fetch('https://d4nt3d3v.github.io/d4nt3d3v/home.html').then(response => response.text()).then(text => document.getElementById("Services").innerHTML=text);
+    if(window.location.toString().includes("?home")==true)
+   {
+    //fetch('https://d4nt3d3v.github.io/d4nt3d3v/home.html').then(response => response.text()).then(text => document.getElementById("MyContainer").innerHTML=text);
     
+   }
+   else if(window.location.toString().includes("?services")==true)
+   {
+    fetch('https://d4nt3d3v.github.io/d4nt3d3v/home.html').then(response => response.text()).then(text => document.getElementById("MyContainer").innerHTML=text);
+    
+   }
+        
        
 </script>
 

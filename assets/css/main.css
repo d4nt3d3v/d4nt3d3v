@@ -359,12 +359,12 @@ width: 350px;
 
 
 
-  --offset: 50px; 
+  /*--offset: 50px; */
   
-  position: sticky;
-  bottom: 20px;      
-  place-self:end;
-  margin-top: calc(100vh + var(--offset));
+  /*position: sticky;*/
+  /*bottom: 20px; */     
+  /*place-self:end;*/
+  /*margin-top: calc(100vh + var(--offset));*/
   
   /* visual styling */
 }

@@ -355,7 +355,7 @@ width: 350px;
   
   position: sticky;
   bottom: 20px;      
-  place-self: end;
+  place-self:end;
   margin-top: calc(100vh + var(--offset));
   
   /* visual styling */

@@ -298,14 +298,14 @@ width: 350px;
   box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
 }
 
-[title~="WiFi_Etecsa"] 
+[title~="Nauta"] 
 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
 }
-[title~="WiFi_Etecsa"]:hover
+[title~="Nauta"]:hover
 {
-  color: rgb(22, 17, 161);
-  box-shadow: 0 8px 16px 0 rgb(22, 17, 161), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
 }
 
 [title~="Nod32V8"] 

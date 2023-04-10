@@ -304,8 +304,8 @@ width: 350px;
 }
 [title~="Nauta"]:hover
 {
-  color: rgb(255, 255, 255);
-  box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+  color: rgb(30, 146, 37);
+  box-shadow: 0 8px 16px 0 rgb(30, 146, 37), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
 }
 
 [title~="Nod32V8"] 

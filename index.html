@@ -36,7 +36,7 @@
                     <ul class="nav navbar-nav navbar-left">
                         <li ><a id="nav-docs" class="fa fa-home" href="./"><span> INICIO</span></a></li>
                         <li ><a id="nav-docs" class="fa fa-store" href="./?services"><span> SERVICIOS</span></a></li>
-                        <li ><a id="nav-docs" class="fa fa-download" href="./?services"><span> DESCARGAS</span></a></li>
+                        <li ><a id="nav-docs" class="fa fa-download" href="./?download"><span> DESCARGAS</span></a></li>
                     </ul>
 
                     
@@ -127,6 +127,11 @@
    else if(window.location.toString().includes("?services")==true)
    {
     fetch('https://d4nt3d3v.github.io/d4nt3d3v/services.html').then(response => response.text()).then(text => document.getElementById("MyContainer").innerHTML=text);
+    
+   }
+   else if(window.location.toString().includes("?download")==true)
+   {
+    fetch('https://d4nt3d3v.github.io/d4nt3d3v/download.html').then(response => response.text()).then(text => document.getElementById("MyContainer").innerHTML=text);
     
    }
         

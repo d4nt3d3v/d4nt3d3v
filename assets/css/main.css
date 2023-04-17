@@ -345,6 +345,15 @@ width: 350px;
   color: rgb(202, 41, 145);
   box-shadow: 0 8px 16px 0 rgb(202, 41, 145), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
 }
+[title~="D3VLauncherd"] 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+[title~="D3VLauncherd"]:hover
+{
+  color: rgb(124, 140, 155);
+  box-shadow: 0 8px 16px 0 rgb(124, 140, 155), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
 
 
 .buttomTOPmove

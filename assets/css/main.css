@@ -269,6 +269,14 @@ width: 350px;
 {
   color: #ffffff;
 }
+.aDownload
+{
+  color: #dddddd;
+}
+.aDownload:hover
+{
+  color: #ffffff;
+}
 
 /*Services*/
 [title~="AccesBanc"] 

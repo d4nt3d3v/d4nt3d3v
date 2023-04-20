@@ -263,9 +263,14 @@ width: 350px;
 
 .SpanPresentationCard
 {
-  color: white;
+  font-size: 24px;
+  color: #cfcfcf;
   margin: 15px;
   font-weight:  bolder;
+}
+.SpanPresentationCard:hover
+{
+  color: #ffffff;
 }
 
 /*Services*/

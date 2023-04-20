@@ -25,9 +25,7 @@ body {
 body {
   -ms-overflow-style: scrollbar;
 }
-html {
-  
-}
+
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -263,8 +261,7 @@ width: 350px;
 
 .SpanPresentationCard
 {
-  font-size: 24px;
-  color: #cfcfcf;
+  color: #dddddd;
   margin: 15px;
   font-weight:  bolder;
 }

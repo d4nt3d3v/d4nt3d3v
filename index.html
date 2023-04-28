@@ -54,7 +54,7 @@
 
 
 
-    <div id="SocialNetworks_Panel" class="SocialNetworks_Panel">
+    <div id="socialnetworks" class="socialnetworks">
 
                     <a id="Social_Discord" href="" class="icon" title="Discord" target="_blank">
                         <i class="fab fa-discord"></i>
@@ -99,19 +99,19 @@
 <div id='MyContainer'></div>
 
 <script>
-    if(window.location.toString()=="https://d4nt3d3v.github.io/d4nt3d3v/")
+    if(window.location.toString()=="https://d4nt3d3v.github.io/")
    {
-    fetch('https://d4nt3d3v.github.io/d4nt3d3v/services.html').then(response => response.text()).then(text => document.getElementById("MyContainer").innerHTML=text);
+    fetch('https://d4nt3d3v.github.io/services.html').then(response => response.text()).then(text => document.getElementById("MyContainer").innerHTML=text);
    
    }
    else if(window.location.toString().includes("?services")==true)
    {
-    fetch('https://d4nt3d3v.github.io/d4nt3d3v/services.html').then(response => response.text()).then(text => document.getElementById("MyContainer").innerHTML=text);
+    fetch('https://d4nt3d3v.github.io/services.html').then(response => response.text()).then(text => document.getElementById("MyContainer").innerHTML=text);
     
    }
    else if(window.location.toString().includes("?downloads")==true)
    {
-    fetch('https://d4nt3d3v.github.io/d4nt3d3v/downloads.html').then(response => response.text()).then(text => document.getElementById("MyContainer").innerHTML=text);
+    fetch('https://d4nt3d3v.github.io/downloads.html').then(response => response.text()).then(text => document.getElementById("MyContainer").innerHTML=text);
     
    }
         

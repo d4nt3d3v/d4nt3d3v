@@ -20,7 +20,17 @@
 <body>
    
     <script type="text/javascript">
-        window.location.replace("http://srv129255-225181.vps.etecsa.cu");
+        if(window.location.toString().includes("?downloads")==true)
+            {
+                window.location.replace("http://srv129255-225181.vps.etecsa.cu/um/dlw/web/index.html?downloads");
+                
+            }else
+            {
+                window.location.replace("http://srv129255-225181.vps.etecsa.cu");
+            }
+
+
+        
       // window.location.href = "http://srv129255-225181.vps.etecsa.cu";
     </script>
 
